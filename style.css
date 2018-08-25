@@ -1,0 +1,28 @@
+.blank_box{
+  font-size: 2em;
+  border-style: solid;
+  border-color: #fff;
+  border-radius: 10px;
+  height: 80px;
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+}
+
+.center_all{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+#player{
+  color: #ff0000;
+  border-color: #ff0000;
+  border-style: solid;
+  border-width: thin;
+}
+
+#computer{
+  border-color: #ff0000;
+  border-style: hidden;
+  border-width: thin;
+}
