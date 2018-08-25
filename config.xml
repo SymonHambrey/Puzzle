@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "number.puzzle.game"
+        version   = "1.0.0">
+
+    <name>Number Puzzle Game</name>
+
+    <description>
+        Beat the computer at this simple numbers game.
+        The player can only move horizontally in the grid,
+        the computer can only move vertically.
+    </description>
+
+    <author href="hambreyhome.ddns.net" email="symonhambrey@gmail.com">
+        Symon Hambrey
+    </author>
+
+    <preference name="phonegap-version" value="cli-7.0.1" />
+	
+    <preference name="permissions"                value="none"/>   
+	
+	<access origin="*"/>
+   	<plugin name="cordova-plugin-whitelist" version="1" />
+</widget>
